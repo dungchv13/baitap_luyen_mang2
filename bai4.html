@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let str =prompt("nhap 1 chuoi string");
+let count = 0;
+for(let i = 0;i < str.length - 1;i++){
+    if (str.charAt(i) == ' ' && str.charAt(i+1)){
+        count ++;
+    }
+}
+if (str.charAt(0) != ' '){
+    count++;
+}
+alert(count)
+</script>
+</body>
+</html>
